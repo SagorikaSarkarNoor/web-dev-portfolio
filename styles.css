@@ -14,6 +14,13 @@ color:#FD6E0A;
 .dark-2{
     color: #474747;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+
+
+
 .btn-primary{
     background-color: #FD6E0A; 
     border: none;
@@ -38,6 +45,17 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 margin: 0 200px;
+
+}
+.section-title{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+
+}
+.section-description{
+font-size: 18px;
+color: #757575;
 
 }
 nav ul{
@@ -83,3 +101,28 @@ padding-left: 183px;
 font-size:45px ;
 font-weight: 600px;
 }
+.main{
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 130px;
+}
+.about{
+border-radius: 10px;
+
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-item{
+
+}
+.item-description{
+    font-weight: bold;
+}
+.item-title{
+    color: ;
+}
+
