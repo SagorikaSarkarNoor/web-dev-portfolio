@@ -17,7 +17,13 @@ color:#FD6E0A;
 .secondary-bg{
     background-color: #FFF8F3;
 }
-
+#mango{
+    width: 100%;
+    border: none;
+    color:#757575;
+    padding-top: 30px;
+    padding-left: 20px;
+}
 
 
 
@@ -155,3 +161,45 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 border-radius: 5px;
 
 }
+.resume-container{
+    display: flex;
+    gap: 25px;
+}
+.resume-column{
+    text-align: left;
+
+}
+.resume-column-p{
+    text-align: justify;
+}
+.experience-description,experience-sub-title{
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume-download-cv{
+margin-top: 50px;
+
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[Type="text"], footer input[type="email"],footer textarea[type=message] {
+    height: 64px;
+border-radius: 5px;
+background-color:white;
+display: block;
+width: 100%;
+padding: 10px 20px;
+margin-bottom: 25px;
+border: none;
+}
+    
